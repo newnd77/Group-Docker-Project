@@ -2,7 +2,7 @@ FROM node:14
 
 WORKING /app
 
-COPY package.json
+COPY package.json .
 
 RUN np install
 
